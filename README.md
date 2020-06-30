@@ -33,4 +33,22 @@ It works in the following steps:
   <li> <b> learning_rate (default = 1) </b> <li>
  It contributes to the weights of weak learners.
   </ul>
- <hr>  
+ <hr>  </hr>
+ 
+ ## Evaluation of the Model:
+ ### a) Without Parameter Tuning:
+                precision    recall  f1-score   support
+          0       1.00      1.00      1.00        12
+          1       0.79      0.94      0.86        16
+          2       0.93      0.76      0.84        17
+    avg / total   0.90      0.89      0.89        45
+ 
+#### Accuracy: 0.8888888888888888
+### b) After Parameter Tuning:
+               precision    recall  f1-score   support
+          0       1.00      1.00      1.00        12
+          1       0.94      0.94      0.94        16
+          2       0.94      0.94      0.94        17
+    avg / total   0.96      0.96      0.96        45
+
+#### Accuracy: 0.9555555555555556
